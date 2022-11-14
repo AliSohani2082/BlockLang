@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.md_screen {
+  display: flex;
+}
+.sm_screen {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .md_screen {
+    display: none;
+  }
+  .sm_screen {
+    display: block;
+  }
+}
+

@@ -1,0 +1,12 @@
+.blockMenu {
+  height: 100vh;
+  width: 100px;
+  background-color: red;
+}
+
+.blockMenu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
